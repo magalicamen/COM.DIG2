@@ -1,5 +1,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
+
+/* HOME*/
+
+
 body{
     background-color: #ffffff;
 }
@@ -87,7 +91,7 @@ nav ul li a {
 }
 
   .boton {
-    position:relative;
+    position: relative;
     left: 42%;
     width: 200px;
     height: 0.05cm;
@@ -95,18 +99,19 @@ nav ul li a {
     border-radius: 50px;
     padding: 30px;
     margin-top: 10px;
-    box-shadow: 6px 6px 5px #027bc2 ;
+    box-shadow: 6px 6px 5px #027bc2;
+    overflow: hidden; /* Evita que el contenido desborde del contenedor */
 }
 
-.boton .textoboton {
+.textoboton p{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 22px;
-    margin-top: -33px;
     white-space: nowrap;
-    overflow: hidden;
     text-align: center;
+    margin: 0; /* Ajusta el margen según sea necesario */
+    margin-top: 20px;
 }
 
 .HOME11{ 
@@ -243,8 +248,8 @@ nav ul li a {
 .footer{
     background: linear-gradient(to top, #95cbdf, #ffffff);
     padding: 0%;
-    height: 430px;
-    margin-top: 200px;
+    height: 480px;
+    margin-top: 100px;
   left: 0;
   width: 100%;
 }
@@ -339,7 +344,7 @@ nav ul li a {
     color: #000000;
 }
 
-.newfooter .formulario {
+.newfooter .formulario0 {
     text-align: left; 
 }
 
@@ -372,9 +377,7 @@ nav ul li a {
 
 
 
-
-
-
+/* HOME TABLET*/
 
 
 @media screen and (max-width: 768px) {
@@ -583,7 +586,7 @@ nav ul li a {
 
 }
 
-
+/* HOMECELULAR*/
 
 @media screen and (max-width: 320px) {
     
@@ -630,7 +633,7 @@ nav ul li a {
         width: 100%;
         height: 8px;
         background: linear-gradient(to top, #000000, #ffffff); 
-        margin-top: 25px;
+        margin-top: 0px;
       }
 
     .HOME1{ 
@@ -677,11 +680,11 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .HOME2 {
-    width: 300px; 
+    width: 270px; 
     height: auto;
     margin-right: 60px; 
     margin-left:60px ;
@@ -717,7 +720,7 @@ nav ul li a {
 }
 
 .HOME3 {
-    width: 300px; 
+    width: 270px; 
     height: auto;
     margin-right: 60px; 
     margin-left:60px ;
@@ -749,7 +752,7 @@ nav ul li a {
 
 .contactanos h1 {
     font-size: 29px;
-    margin-top: 950px;
+    margin-top: 900px;
 }
 
 .contactanos p {
@@ -767,6 +770,7 @@ nav ul li a {
 .footer {
     flex-direction: column; 
     height: 1010px;
+    margin-top: 120px;
 }
 
 .nosotrosfooter,
@@ -803,4 +807,412 @@ nav ul li a {
     font-size: 10px;
 }
 
+}
+
+
+
+/* NOSOTROS*/
+
+
+.NOSOTROS1{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin left: 10px;
+    margin right: 10px ;
+}
+
+.TEXTOABAJODEIMAGEN {
+    text-align: center; 
+}
+
+.TEXTOABAJODEIMAGEN {
+    background-color: #0071cf;
+    padding: 40px;
+}
+
+.TEXTOABAJODEIMAGEN h1 {
+    font-size: 34px; 
+    font-family: 'Roboto', sans-serif;
+    color: #fff; 
+    margin-top: -50px;
+}
+
+.TEXTOABAJODEIMAGEN p {
+    font-size: 26px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #fff; 
+    max-width: 70%; 
+    overflow-y: auto;
+    margin-left: 15%;  
+}
+
+
+.CONTENEDOR1NOSOTROS {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center; /* Centra los contenidos horizontalmente */
+    margin-left: 11%;
+}
+
+.CONTENIDOLOQUENECESITASSABER {
+    flex: 1;
+    text-align: left;
+}
+
+.CONTENIDODATOSSOBRECERAVE {
+    flex: 1;
+    text-align: left;
+}
+
+.LOQUENECESITASSABER h1,
+.DATOSSOBRECERAVE h1 {
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567;
+}
+
+.LOQUENECESITASSABER p,
+.DATOSSOBRECERAVE p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    max-width: 77%;
+}
+
+.CONTENEDORPRODUCTOS {
+    margin-top: 100px;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.CONTENEDORPRODUCTOS h1 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color: #0071cf;
+}
+
+.IMAGENESCONTENEDORPRODUCTOS {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+}
+
+.IMAGENESCONTENEDORPRODUCTOS img {
+    max-width: 300px; /* Tamaño máximo de las imágenes */
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+
+/* NEWSTELER*/
+
+.NEWSLETTERSIGNUP {
+    margin-top: 70px;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.NEWSLETTERSIGNUP h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #023567;
+    display: block;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra alrededor y más transparente */
+}
+
+.NEWSLETTERSIGNUP p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #000000;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto; /* Centra el párrafo horizontalmente */
+    display: block;
+    margin-top: -10px;
+}
+
+
+.formulario {
+    text-align: center; /* Centra el contenido del formulario horizontalmente */
+    font-family: 'Roboto', sans-serif;
+    max-width: 450px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente en el contenedor */
+    margin-top: 40px;
+}
+  
+  .formulario input,
+  .formulario textarea {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #023567;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .formulario textarea {
+    height: 150px;
+    padding-top: 15px;
+  }
+  
+  .formulario label {
+    display: block;
+    text-align: left; /* Alinea los textos de las etiquetas a la izquierda */
+  }
+  
+  .formulario button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #0071cf;
+    border-color: #0071cf;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .formulario button p {
+    color: #fff;
+  }
+  
+  span{
+    color: #0071cf; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #0071cf;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #0071cf;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #0071cf;
+  }
+
+  .select_piel {
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #023567;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    text-align: left; /* Alinea los textos de las etiquetas a la izquierda */
+}
+
+
+/* PRODUCTOS*/
+
+
+.PRODUCTOS1{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin left: 10px;
+    margin right: 10px ;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN {
+    text-align: center; 
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN {
+    background-color: #a1e8e5;
+    padding: 40px;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN h1 {
+    font-size: 34px; 
+    font-family: 'Roboto', sans-serif;
+    color: #023567; 
+    margin-top: -100px;
+}
+
+.PRODUCTOSTEXTOABAJODEIMAGEN p {
+    font-size: 26px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 270;
+    color: #000000; 
+    max-width: 90%; 
+    overflow-y: auto;
+    margin-left: 5%; 
+    margin-top: -30px; 
+}
+
+.EXPLORALOSPRODUCTOSPORCATEGORIA {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.EXPLORALOSPRODUCTOSPORCATEGORIA h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color: #0071cf; 
+    word-spacing: 7px;
+}
+
+.PRODUCTOSPORCATEGORIA img {
+    margin-top: -100px;
+    margin: 10px; /* Agrega un margen de 10px a todas las imágenes */
+}
+
+.linea-azul {
+    border-top: 12px solid #0071cf; 
+    margin-top: 20px; 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LIMPIADORESF h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.LIMPIADORESF img {
+    margin-top: 0px;
+    margin: 30px 50px; /* Agrega 20px arriba y abajo, y 50px a los lados */
+}
+
+.HIDRATANTESC h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.HIDRATANTESC img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.HIDRATANTESF h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.HIDRATANTESF img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.LIMPIADORESC h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.LIMPIADORESC img {
+    margin-top: 0px;
+    margin: 30px 50px; /* Agrega 20px arriba y abajo, y 50px a los lados */
+}
+
+.SERUMS h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.SERUMS img {
+    margin-top: 0px;
+    margin: 30px 50px; 
+}
+
+.CREMA h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #023567; 
+    margin-top: 30px;
+    letter-spacing: 1px;
+    word-spacing: 7px;
+}
+
+.CREMA img {
+    margin-top: 0px;
+    margin: 30px 50px; /* Agrega 20px arriba y abajo, y 50px a los lados */
 }
